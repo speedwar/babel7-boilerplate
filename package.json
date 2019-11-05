@@ -1,0 +1,23 @@
+{
+  "name": "babel7-boilerplate",
+  "version": "0.1.0",
+  "description": "Babel7 Boilerplate",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src/main.js -o public/main.bundle.js",
+    "start": "http-server"
+  },
+  "author": "Jimmy Lee",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-json-strings": "^7.2.0",
+    "@babel/plugin-syntax-import-meta": "^7.2.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.6.3",
+    "http-server": "^0.11.1"
+  }
+}
